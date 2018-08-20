@@ -1,0 +1,36 @@
+@import 'font';
+@import 'scroll';
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  &:focus {
+    outline: none;
+  }
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  overscroll-behavior-y: contain;
+}
+
+html {
+  font-size: 16px;
+  color: #222;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+a {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+  &:focus {
+    text-decoration: none;
+  }
+}

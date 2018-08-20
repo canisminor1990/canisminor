@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Airbnb Cereal';
+  src: url('/fonts/AirbnbCereal_Bk.woff2');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Airbnb Cereal';
+  src: url('/fonts/AirbnbCereal_Md.woff2');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Airbnb Cereal';
+  src: url('/fonts/AirbnbCereal_Bd.woff2');
+  font-weight: 600;
+}
+body {
+  font-family: /* EN */ 'Airbnb Cereal', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial,
+    /* CN */ 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI',
+    'Microsoft Yahei', 'Source Han Sans CN', sans-serif, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
