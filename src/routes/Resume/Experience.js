@@ -126,7 +126,7 @@ export default class extends Component {
   render() {
     return (
       <div>
-        <View.Row text="Extra Works" line>
+        <View.Row text="Extra Identities" line>
           <Motion mode="lazyScroll">
             <this.Main key="main" />
           </Motion>

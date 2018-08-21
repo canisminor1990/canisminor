@@ -39,7 +39,11 @@ export default class extends Component {
       <Motion mode="lazyScroll">
         <Download key="download" css={Inner}>
           <View.Row>
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a
+              href="http://qn.canisminor.cc/CanisMinor%27s%20Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Btn type="black">Download Resume</Btn>
             </a>
             <Link to="projects">
