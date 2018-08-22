@@ -136,7 +136,13 @@ class App extends Component {
         <MediaQuery key="desktop" minWidth={Style.screen.M}>
           <this.Video />
         </MediaQuery>
-        <MediaQuery key="mobile" maxWidth={Style.screen.M} />
+        {location.pathname === '/hola' ? (
+          <MediaQuery key="mobile" maxWidth={Style.screen.M}>
+            <ScrollToHide maxOffset={1000}>
+              <Cover style={{ backgroundImage: 'url(http://qn-video.canisminor.cc/home.png)' }} />
+            </ScrollToHide>
+          </MediaQuery>
+        ) : null}
         <audio id="music" src="http://qn-video.canisminor.cc/music.mp3" loop />
         <section>
           <Content>{this.props.children}</Content>
