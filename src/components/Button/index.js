@@ -14,7 +14,7 @@ const Base = styled.button`
   cursor: pointer;
   position: relative;
   letter-spacing: 0.06em;
-  border: 0.5px solid #eee;
+  border: 1px solid #eee;
   -webkit-appearance: none;
 `;
 
@@ -36,7 +36,7 @@ const Btn = Base.extend`
   }
   &:hover {
     color: white;
-    border: 0.5px solid transparent;
+    border: 1px solid transparent;
     &:before {
       width: 100%;
     }
