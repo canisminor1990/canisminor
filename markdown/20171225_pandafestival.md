@@ -31,3 +31,8 @@ Excepting costume and facial expressions, we always make a variety of props to s
 ![](http://qn.canisminor.cc/2018-08-22-festival-3.png)
 
 ![](http://qn.canisminor.cc/2018-08-22-festival-4.png)
+
+**Read more details:**
+
+- [二发熊诞生记](/blog/posts/20160224_pandaborn)
+- [3D 二发熊角色设定](/blog/posts/20171201_3dpanda)
