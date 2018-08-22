@@ -11,6 +11,11 @@ module.exports = {
       title: "熊猫金库 3.0",
       type : "ui design / mobile app",
       to   : "/blog/posts/20180101_panda"
+    },{
+      cover: "http://qn.canisminor.cc/2018-08-22-project-3dpanda.png",
+      title: "3D二发熊角色设定",
+      type : "3d character design",
+      to   : "/blog/posts/20171201_3dpanda"
     },
     {
       cover: "http://qn.canisminor.cc/2018-08-18-project-quanda.png",
