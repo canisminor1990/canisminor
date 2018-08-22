@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import MediaQuery from 'react-responsive';
 import { Header, Footer, Style, Motion, ScrollToHide } from '../../components';
 import styled from 'styled-components';
 
@@ -17,6 +18,21 @@ const navbarTabs = {
 /// /////////////////////////////////////////////
 // styled
 /// /////////////////////////////////////////////
+
+const Cover = styled.div`
+  width: 100%;
+  height: 100vh;
+  min-height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+`;
 
 const VideoCase = styled(Motion)`
   width: 100%;
@@ -96,6 +112,7 @@ class App extends Component {
             x-webkit-airplay="allow"
             autoPlay
             poster="http://qn-video.canisminor.cc/home.png"
+            onCanPlay={this.Play}
           >
             <source src="http://qn-video.canisminor.cc/home.mp4" type="video/mp4" />
           </video>
@@ -116,7 +133,12 @@ class App extends Component {
     return (
       <div>
         <Header tabs={navbarTabs} />
-        <this.Video />
+        <MediaQuery key="desktop" minWidth={Style.screen.M}>
+          <this.Video />
+        </MediaQuery>
+        <MediaQuery key="mobile" maxWidth={Style.screen.M}>
+          <Cover style={{ backgroundImage: 'url(http://qn-video.canisminor.cc/home.png)' }} />
+        </MediaQuery>
         <audio id="music" src="http://qn-video.canisminor.cc/music.mp3" loop />
         <section>
           <Content>{this.props.children}</Content>
