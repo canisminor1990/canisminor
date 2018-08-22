@@ -142,7 +142,14 @@ const renderer = {
       return <Image src={e.src} style={{ maxWidth: e.alt }} grey />;
     } else if (e.alt === 'video') {
       return (
-        <video controls playsinline style={{ maxWidth: '100%' }}>
+        <video
+          controls
+          playsInline
+          webkit-playsinline="true"
+          x5-playsinline="true"
+          x-webkit-airplay="allow"
+          style={{ maxWidth: '100%' }}
+        >
           <source src={e.src} type="video/mp4" />
         </video>
       );

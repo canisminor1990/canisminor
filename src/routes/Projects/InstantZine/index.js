@@ -171,7 +171,15 @@ class InstantZine extends Component {
   Video = () => {
     return (
       <VideoCase>
-        <video id="InstantZine" controls playsInline poster={FileUtils.videoCover}>
+        <video
+          id="InstantZine"
+          controls
+          playsInline
+          webkit-playsinline="true"
+          x5-playsinline="true"
+          x-webkit-airplay="allow"
+          poster={FileUtils.videoCover}
+        >
           <source src={FileUtils.video} type="video/mp4" />
         </video>
         <div>
