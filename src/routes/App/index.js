@@ -92,6 +92,7 @@ class App extends Component {
             playsInline
             webkit-playsinline="true"
             x5-playsinline="true"
+            x5-video-player-type="h5"
             x-webkit-airplay="allow"
             autoPlay
             poster="http://qn-video.canisminor.cc/home.png"
