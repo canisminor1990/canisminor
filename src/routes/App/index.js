@@ -90,6 +90,9 @@ class App extends Component {
             muted
             loop
             playsInline
+            webkit-playsinline
+            x5-playsinline
+            x-webkit-airplay="allow"
             autoPlay
             poster="http://qn-video.canisminor.cc/home.png"
             onCanPlay={this.Play}
