@@ -12,12 +12,7 @@ export default ({ app, history }) => {
   const Hola = dynamic({
     app,
     component: () => import('./routes/Hola'),
-    models: () => [
-      import('./models/hola'),
-      import('./models/github'),
-      import('./models/blog'),
-      import('./models/projects'),
-    ],
+    models: () => [import('./models/hola'), import('./models/github')],
   });
 
   const Resume = dynamic({
