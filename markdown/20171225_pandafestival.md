@@ -28,6 +28,6 @@ Excepting costume and facial expressions, we always make a variety of props to s
 
 除了不同的服装和表情，在每一次的主题活动中我们还会制作很多相关的道具和零件。在这一次的活动里，我们加入了二发熊的金币小伙伴们，这些小金币经常和二发熊一起换装演绎不同的主题角色。
 
-![](http://qn.canisminor.cc/2018-08-22-festival-4.png)
+![](http://qn.canisminor.cc/2018-08-22-festival-3.png)
 
 ![](http://qn.canisminor.cc/2018-08-22-festival-4.png)
