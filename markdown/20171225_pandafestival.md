@@ -1,14 +1,10 @@
 ---
 tag: design
 desc: 熊猫金库主题活动
-? l
+l: http://qn.canisminor.cc/2018-08-22-pandafestival.png
 ---
 
-# 嘉年华
-
-一起来嘉年华狂欢吧！
-
-![]()
+# 金库嘉年华
 
 ## Best Wishes!
 
@@ -17,6 +13,10 @@ Join us and getting our blessing and rebate!
 
 感谢大家的支持！准备好接受我们的津贴和礼物了吗？
 快来加入我们的活动接受我们美好的祝愿和回馈吧！
+
+![](http://qn.canisminor.cc/2018-08-22-festival-2.png)
+
+![](http://qn.canisminor.cc/2018-08-22-festival-1.png)
 
 ## Festival Event
 
@@ -28,6 +28,6 @@ Excepting costume and facial expressions, we always make a variety of props to s
 
 除了不同的服装和表情，在每一次的主题活动中我们还会制作很多相关的道具和零件。在这一次的活动里，我们加入了二发熊的金币小伙伴们，这些小金币经常和二发熊一起换装演绎不同的主题角色。
 
-![]()
+![](http://qn.canisminor.cc/2018-08-22-festival-4.png)
 
-![]()
+![](http://qn.canisminor.cc/2018-08-22-festival-4.png)
