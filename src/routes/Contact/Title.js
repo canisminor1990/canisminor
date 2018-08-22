@@ -52,7 +52,7 @@ export default () => {
       <Typist className="Typist">
         Do you fancy saying hi to me or you need my help with your project?
         <br />
-        feel free 2 contact me 😉
+        {' feel free 2 contact me 😉'}
       </Typist>
     </Title>
   );
