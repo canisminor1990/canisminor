@@ -2,7 +2,6 @@ import _ from 'lodash';
 import styled from 'styled-components';
 import { Style, Loading, Motion, Button, View } from '../../components';
 import { Component } from 'react';
-import { connect } from 'dva';
 import { Link } from 'dva/router';
 
 /// /////////////////////////////////////////////
@@ -113,27 +112,9 @@ const More = styled(Motion)`
 // component
 /// /////////////////////////////////////////////
 
-const State = state => {
-  return {
-    data: state.projects,
-    loading: _.size(state.projects) === 0 || state.loading.models.projects,
-  };
-};
-
-const Dispatch = dispatch => ({
-  getProjects() {
-    dispatch({ type: `projects/get` });
-  },
-});
-
 class Design extends Component {
-  componentDidMount() {
-    this.props.getProjects();
-  }
-
   Showcase = ({ content }) => {
     const mapList = (item, i) => {
-      if (i > 5) return null;
       return (
         <Item key={i} to={item.to}>
           <Cover style={{ backgroundImage: `url(${item.cover})` }} grey />
@@ -158,7 +139,7 @@ class Design extends Component {
           {this.props.loading ? (
             <Loading key="loading" height="10rem" />
           ) : (
-            <this.Showcase key="main" content={this.props.data.main} />
+            <this.Showcase key="main" content={this.props.data} />
           )}
         </Motion>
         <More mode="lazyScroll">
@@ -171,7 +152,4 @@ class Design extends Component {
   }
 }
 
-export default connect(
-  State,
-  Dispatch
-)(Design);
+export default Design;

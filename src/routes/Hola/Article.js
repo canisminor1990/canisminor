@@ -2,7 +2,6 @@ import _ from 'lodash';
 import styled from 'styled-components';
 import { Style, Loading, Motion, Button } from '../../components';
 import { Component } from 'react';
-import { connect } from 'dva';
 import { Link } from 'dva/router';
 import moment from 'moment';
 
@@ -82,27 +81,9 @@ const MotionView = styled(Motion)`
 // component
 /// /////////////////////////////////////////////
 
-const State = state => {
-  return {
-    data: state.blog,
-    loading: _.size(state.blog) === 0 || state.loading.models.blog,
-  };
-};
-
-const Dispatch = dispatch => ({
-  getPage(page = 1) {
-    dispatch({ type: `blog/get`, payload: page });
-  },
-});
-
-class Coding extends Component {
-  componentDidMount() {
-    this.props.getPage();
-  }
-
+class Article extends Component {
   Main = ({ content }) => {
     const mapMain = (item, i) => {
-      if (i > 5) return;
       return (
         <Card key={i} to={`/blog/posters/${item.filename}`}>
           <Content>
@@ -116,7 +97,7 @@ class Coding extends Component {
         </Card>
       );
     };
-    return <Main>{content.toc.map(mapMain)}</Main>;
+    return <Main>{content.map(mapMain)}</Main>;
   };
 
   render() {
@@ -126,7 +107,7 @@ class Coding extends Component {
           {this.props.loading ? (
             <Loading key="loading" height="10rem" />
           ) : (
-            <this.Main key="main" content={this.props.data[1]} />
+            <this.Main key="main" content={this.props.data} />
           )}
         </MotionView>
         <MotionView mode="lazyScroll">
@@ -139,7 +120,4 @@ class Coding extends Component {
   }
 }
 
-export default connect(
-  State,
-  Dispatch
-)(Coding);
+export default Article;
