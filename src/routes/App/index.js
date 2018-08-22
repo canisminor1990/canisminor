@@ -136,9 +136,7 @@ class App extends Component {
         <MediaQuery key="desktop" minWidth={Style.screen.M}>
           <this.Video />
         </MediaQuery>
-        <MediaQuery key="mobile" maxWidth={Style.screen.M}>
-          <Cover style={{ backgroundImage: 'url(http://qn-video.canisminor.cc/home.png)' }} />
-        </MediaQuery>
+        <MediaQuery key="mobile" maxWidth={Style.screen.M} />
         <audio id="music" src="http://qn-video.canisminor.cc/music.mp3" loop />
         <section>
           <Content>{this.props.children}</Content>
