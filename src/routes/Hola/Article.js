@@ -85,7 +85,7 @@ class Article extends Component {
   Main = ({ content }) => {
     const mapMain = (item, i) => {
       return (
-        <Card key={i} to={`/blog/posters/${item.filename}`}>
+        <Card key={i} to={`/blog/posts/${item.filename}`}>
           <Content>
             <Title>{item.title}</Title>
             <Desc>{item.desc}</Desc>
