@@ -32,8 +32,7 @@ const Page = styled.section`
 
 const State = state => {
   return {
-    blog: state.blog,
-    loading: _.size(state.blog) === 0 || state.loading.models.blog,
+    ...state.blog,
   };
 };
 
@@ -77,10 +76,10 @@ class Articles extends Component {
   More = ({ page }) => {
     if (this.state.page < page)
       return <Button onClick={() => this.handleClick(page)}>More Articles</Button>;
-    return this.props.loading ? (
+    return _.isUndefined(this.props[page]) ? (
       <Loading height="30vh" />
     ) : (
-      <this.List page={page} content={this.props.blog[page]} />
+      <this.List page={page} content={this.props[page]} />
     );
   };
 
@@ -89,10 +88,10 @@ class Articles extends Component {
       <Header.PlaceHolder key="header" />,
       <MusicSwitch key="switch" minWidth={Style.screen.XL} />,
       <View key="view">
-        {this.props.loading ? (
+        {_.isUndefined(this.props[1]) ? (
           <Loading height="50vh" />
         ) : (
-          <this.List page={1} content={this.props.blog[1]} />
+          <this.List page={1} content={this.props[1]} />
         )}
       </View>,
     ];
