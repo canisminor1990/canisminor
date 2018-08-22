@@ -96,7 +96,6 @@ class App extends Component {
             x-webkit-airplay="allow"
             autoPlay
             poster="http://qn-video.canisminor.cc/home.png"
-            onCanPlay={this.Play}
           >
             <source src="http://qn-video.canisminor.cc/home.mp4" type="video/mp4" />
           </video>
