@@ -27,6 +27,11 @@ const Title = styled.div`
 
 const Btn = styled(Button)`
   margin: 0.5rem 1rem;
+  @media ${Style.media('S')} {
+    margin: 0.5rem 0;
+    width: 100%;
+    flex: 1;
+  }
 `;
 
 /// /////////////////////////////////////////////
