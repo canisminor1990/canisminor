@@ -52,7 +52,7 @@ module.exports = {
     title : `Hello, I'm CanisMinor,|User Experience Designer &|Front-end Developer based|in Beijing, I create digital|products a more sexy and|usable place.`,
     desc  : [
       `My name is Yufan Yang a.k.a CanisMinor,|${Year - 1990} years old with ${Year -
-                                                                               2012} years design experience.|I graduated at China Academy of Art with a degree in Visual Communication Design where I discovered my passion for problem solving declined to user experience design.|I am currentky working as a ued director with knowledge abt design management and agile app development process.`,
+                                                                               2012} years design experience.|I graduated at China Academy of Art with a degree in Visual Communication Design where I discovered my passion for problem solving declined to user experience design.|I am currently working as a ued director with knowledge abt design management and agile app development process.`,
       `I familiar with major front-end technology stack like react / vue and Alibaba's open-sourceprojects like antd / dva / roadhog. |I develop some Sketch plugins like Sketch Selectand Name as a third-party developer.|I am crazy about screeps, pet ants, cat and thirsty for new knowledge, experience and creating sexy things. If you need help of yourproject, feel free to contact me.`
     ]
   },

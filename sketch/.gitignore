@@ -21,4 +21,4 @@ Thumbs.db
 data/commands.json
 yarn.lock
 config.js
-/sketch
+dist.sketchplugin
