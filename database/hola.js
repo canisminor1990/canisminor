@@ -1,6 +1,12 @@
 const Year = new Date().getFullYear();
 const article = [
   {
+    "filename": "20180710_panda",
+    "title": "熊猫金库项目梳理",
+    "tag": "research",
+    "desc": "创业历程与技术总结",
+    "date": "2018-07-10"
+  },{
     "filename": "20180308_sketchplugin",
     "title": "Skpm 插件开发",
     "tag": "tech",
@@ -24,12 +30,6 @@ const article = [
     "tag": "design",
     "desc": "Character Design",
     "date": "2016-02-24"
-  }, {
-    "filename": "20121003_summerday",
-    "title": "Summer Days",
-    "tag": "life",
-    "desc": "骑行.徒步.沙漠",
-    "date": "2012-10-03"
   },
 ];
 
