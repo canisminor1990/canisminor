@@ -1,13 +1,11 @@
 ---
 tag: design
-desc: 个站设计&开发记录
+desc: Design & development records of personal site
 l: http://qn.canisminor.cc/2018-08-27-canisminor-l.png
 s: http://qn.canisminor.cc/2018-08-27-canisminor-s.png
 ---
 
 # CanisMinor
-
-![](http://qn.canisminor.cc/2018-08-24-cm-1.png)
 
 ## TECH
 
@@ -34,6 +32,8 @@ s: http://qn.canisminor.cc/2018-08-27-canisminor-s.png
 - 七牛
 - Mailgun
 
+![](http://qn.canisminor.cc/2018-08-24-cm-1.png)
+
 ## Design
 
 ![](http://qn.canisminor.cc/2018-08-24-cm-2.png)
@@ -46,7 +46,7 @@ s: http://qn.canisminor.cc/2018-08-27-canisminor-s.png
 
 代码片段的字体选用了我习惯的 Hack 字族，Monaco 的完美替代品，也是我所有 IDE 的设定字体。
 
-![cm-3](/Users/yangyufan/Documents/list/cm-3.png)
+![](http://qn.canisminor.cc/2018-08-27-cm-3.png)
 
 #### 字号&行高管理
 
