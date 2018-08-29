@@ -45,9 +45,9 @@ module.exports = {
       { icon: "/img/vd-skill-interface.png", title: "UI/UX Design" },
       { icon: "/img/vd-skill-brand.png", title: "Branding Design" },
       { icon: "/img/vd-skill-manage.png", title: "Design Management" },
-      { icon: "/img/fe-skill-web.png", title: "Web Frontend Devlopment" },
-      { icon: "/img/fe-skill-react.png", title: "React UI Library Devlopment" },
-      { icon: "/img/fe-skill-sketch.png", title: "Sketch Plugin Devlopment" }
+      { icon: "/img/fe-skill-web.png", title: "Web Frontend Development" },
+      { icon: "/img/fe-skill-react.png", title: "React UI Library Development" },
+      { icon: "/img/fe-skill-sketch.png", title: "Sketch Plugin Development" }
     ],
     title : `Hello, I'm CanisMinor,|User Experience Designer &|Front-end Developer based|in Beijing, I create digital|products a more sexy and|usable place.`,
     desc  : [

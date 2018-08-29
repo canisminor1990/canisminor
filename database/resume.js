@@ -142,11 +142,11 @@ module.exports = {
   },
   feskills    : {
     main : [
-      { icon: "/img/fe-skill-web.png", title: "Web Frontend Devlopment" },
+      { icon: "/img/fe-skill-web.png", title: "Web Frontend Development" },
       { icon: "/img/fe-skill-mobile.png", title: "Responsive & Mobile Dev" },
-      { icon: "/img/fe-skill-sketch.png", title: "Sketch Plugin Devlopment" },
-      { icon: "/img/fe-skill-react.png", title: "React UI Library Devlopment" },
-      { icon: "/img/fe-skill-wxapp.png", title: "WxApp Devlopment" },
+      { icon: "/img/fe-skill-sketch.png", title: "Sketch Plugin Development" },
+      { icon: "/img/fe-skill-react.png", title: "React UI Library Development" },
+      { icon: "/img/fe-skill-wxapp.png", title: "WxApp Development" },
       { icon: "/img/fe-skill-linux.png", title: "Mastery of Linux SSH & Git" }
     ],
     tools: [
