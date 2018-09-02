@@ -145,7 +145,7 @@ const Dispatch = dispatch => ({
 });
 
 export const PostArticle = ({ content }) => {
-  setTitle(content.title);
+  setTitle(content.title, content.desc);
   return (
     <Article type="bottom">
       <ArticleHeader key="header">
