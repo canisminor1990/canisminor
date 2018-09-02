@@ -27,6 +27,7 @@ module.exports = {
 		'document' : true,
 		'navigator': true,
 		'localStorage': true,
+		'$isDev': true,
 	},
 	env          : {
 		'es6' : true,

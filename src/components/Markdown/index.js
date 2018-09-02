@@ -11,11 +11,13 @@ import _ from 'lodash';
 
 const View = styled(ReactMarkdown)`
   width: 100%;
+  overflow: hidden;
   > * {
     margin-bottom: 3rem;
   }
   a {
     color: #4a90e2;
+    word-break: break-all;
   }
   img {
     max-width: 100%;
@@ -26,6 +28,8 @@ const View = styled(ReactMarkdown)`
     text-align: justify;
   }
   blockquote {
+    padding-right: 0;
+    margin-right: 0;
     margin-left: 0;
     padding-left: 1rem;
     border-left: 0.25rem solid #e3e3e3;
@@ -72,10 +76,16 @@ const View = styled(ReactMarkdown)`
   pre {
     background: #f8f8f8;
     padding: 1rem;
+    overflow-x: auto;
+    code {
+      ${Style.fontSize(-2, true)};
+      border: none;
+    }
   }
   code {
     font-family: ${Style.fontFamily.code};
-    ${Style.fontSize(-2, true)};
+    ${Style.fontSize(-1, true)};
+    border-bottom: 2px solid #f5f5f5;
   }
   ul {
     list-style: none;

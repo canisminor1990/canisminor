@@ -23,7 +23,7 @@
     "build:data": "cd ./server && yarn build",
     "lint": "lint-staged",
     "lint:style": "stylelint 'src/**/*.js'",
-    "lint:es": "eslint --fix --ext .js ."
+    "lint:es": "eslint --fix --ext .js src"
   },
   "pre-commit": [
     "lint"

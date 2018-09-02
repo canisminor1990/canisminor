@@ -19,12 +19,6 @@ const Inner = css`
   justify-content: center;
 `;
 
-const Title = styled.div`
-  font-family: ${Style.fontFamily.times};
-  font-style: italic;
-  ${Style.fontSize(-1)};
-`;
-
 const Btn = styled(Button)`
   margin: 0.5rem 1rem;
   @media ${Style.media('S')} {

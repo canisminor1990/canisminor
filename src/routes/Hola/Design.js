@@ -1,4 +1,3 @@
-import _ from 'lodash';
 import styled from 'styled-components';
 import { Style, Loading, Motion, Button, View } from '../../components';
 import { Component } from 'react';
