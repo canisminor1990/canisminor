@@ -1,4 +1,5 @@
 const Year = new Date().getFullYear();
+const banner = []
 const article = [
   {
     "filename": "20180710_panda",
@@ -36,6 +37,10 @@ const article = [
 try {
   const Toc = require('../server/dist/toc');
   article.unshift(Toc[0])
+  banner.push(Toc[0])
+  banner.push(Toc[1])
+  banner.push(Toc[2])
+  banner.push(Toc[3])
 } catch (e) {}
 
 
@@ -134,5 +139,6 @@ module.exports = {
       href : "https://github.com/canisminor1990/ffxiv-cmskin"
     }
   ],
-  article
+  article,
+  banner
 };
