@@ -49,7 +49,7 @@ export default () => {
   return (
     <Title>
       <Icon type="project" />
-      <Typist className="Typist">There are a selection of my recent works</Typist>
+      <Typist className="Typist">Selection of my recent works</Typist>
     </Title>
   );
 };
