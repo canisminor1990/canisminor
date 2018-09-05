@@ -7,7 +7,7 @@ l: http://qn.canisminor.cc/2018-08-18-screeps-dashboards-l.png
 
 # Screeps Dashboard
 
-![nozoom](https://img.shields.io/badge/Dashboard%20for-Screeps-brightgreen.svg)
+![auto](https://img.shields.io/badge/Dashboard%20for-Screeps-brightgreen.svg)
 
 👀 Dashboard for [screeps.com](https://screeps.com/), view [online demo](http://screeps.canisminor.cc/).
 

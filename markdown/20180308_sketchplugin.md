@@ -208,7 +208,7 @@ window.remoteFunc = data => {
 
 ## 调试
 
-![nozoom](https://user-images.githubusercontent.com/3254314/32320758-1dc414d8-bfbf-11e7-9282-1d57fc53874d.png)
+![auto](https://user-images.githubusercontent.com/3254314/32320758-1dc414d8-bfbf-11e7-9282-1d57fc53874d.png)
 
 - 安装 [**sketch-dev-tools**](https://github.com/skpm/sketch-dev-tools)
 

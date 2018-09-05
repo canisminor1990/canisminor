@@ -6,7 +6,7 @@ l: http://qn.canisminor.cc/2018-08-18-name.png
 
 # Name Organizer
 
-![](https://img.shields.io/github/release/canisminor1990/sketch-name-organizer.svg)
+![auto](https://img.shields.io/github/release/canisminor1990/sketch-name-organizer.svg)
 
 **Sort Artboards**
 
@@ -108,7 +108,7 @@ DataDisplay / Cell / 01
 
 ## 安装方法
 
-![](https://img.shields.io/github/downloads/canisminor1990/sketch-name-organizer/total.svg)
+![auto](https://img.shields.io/github/downloads/canisminor1990/sketch-name-organizer/total.svg)
 
 ### 直接下载
 

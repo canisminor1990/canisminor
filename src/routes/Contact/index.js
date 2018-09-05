@@ -144,7 +144,7 @@ class Contact extends Component {
 
   Mail = () => (
     <Mail>
-      <Input placeholder="NANE" onChange={e => this.setState({ name: e.target.value })} />
+      <Input placeholder="NAME" onChange={e => this.setState({ name: e.target.value })} />
       <Input placeholder="E-MAIL" onChange={e => this.setState({ email: e.target.value })} />
       <Input
         placeholder="MESSAGE"
