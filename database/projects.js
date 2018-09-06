@@ -12,7 +12,7 @@ module.exports = {
       type : "ui design / mobile app",
       to   : "/blog/posts/20180101_panda"
     },{
-      cover: "http://qn.canisminor.cc/2018-08-22-project-3dpanda.png",
+      cover: "http://qn.canisminor.cc/2018-09-06-project-3dpanda.png",
       title: "3D二发熊角色设定",
       type : "3d character design",
       to   : "/blog/posts/20171201_3dpanda"

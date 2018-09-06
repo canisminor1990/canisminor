@@ -1,6 +1,18 @@
 const Year = new Date().getFullYear();
 const article = [
   {
+    "filename": "20180820_canisminor",
+    "title": "CanisMinor",
+    "tag": "design",
+    "desc": "Design & development records of personal site",
+    "cover": {
+      "s": "http://qn.canisminor.cc/2018-08-27-canisminor-s.png",
+      "m": false,
+      "l": "http://qn.canisminor.cc/2018-08-27-canisminor-l.png"
+    },
+    "date": "2018-08-20"
+  },
+  {
     "filename": "20180710_panda",
     "title": "熊猫金库项目梳理",
     "tag": "research",
@@ -33,17 +45,6 @@ const article = [
       "l": "http://qn.canisminor.cc/2018-08-18-screeps-dashboards-l.png"
     },
     "date": "2018-05-02"
-  }, {
-    "filename": "20180305_wxapp",
-    "title": "CanisMinor WxApp",
-    "tag": "tech",
-    "desc": "微信小程序轮子，dva 脚手架及示例工程",
-    "cover": {
-      "s": false,
-      "m": false,
-      "l": "http://qn.canisminor.cc/2018-08-18-wxapp.png"
-    },
-    "date": "2018-03-05"
   },{
     "filename": "20160224_pandaborn",
     "title": "二发熊诞生记",
