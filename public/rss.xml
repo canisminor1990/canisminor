@@ -1,67 +1,70 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[CanisMinor]]></title><description><![CDATA[来自 CanisMinor 博客的订阅信息 - CanisMinor RSS Feed]]></description><link>https://canisminor.cc</link><image><url>https://canisminor.cc/favicons/favicon-32x32.png</url><title>CanisMinor</title><link>https://canisminor.cc</link></image><generator>RSS for Node</generator><lastBuildDate>Thu, 06 Sep 2018 01:18:58 GMT</lastBuildDate><atom:link href="https://canisminor.cc/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[CanisMinor 2018 版权所有]]></copyright><language><![CDATA[zh-cn]]></language><managingEditor><![CDATA[CanisMinor]]></managingEditor><webMaster><![CDATA[CanisMinor]]></webMaster><category><![CDATA[design]]></category><category><![CDATA[coding]]></category><category><![CDATA[ued]]></category><category><![CDATA[fe]]></category><category><![CDATA[ui/ux]]></category><item><title><![CDATA[CanisMinor WxApp 2.0]]></title><description><![CDATA[<p><img src="https://img.shields.io/github/release/canisminor1990/canisminor-wxapp.svg" alt="auto"></p><p>随着前几天的个网 2.0 改版，因为重构了前端和后端导致之前的微信小程序使用的很多旧接口已不再维护，所以抽了2天时间把微信小程序从头到尾连UI到框架都重写了一遍（🌚设计师开发的好处就是可以不画设计稿直接开写...）。年初找类 React 框架的时候，只发现了食之无味弃之可惜的 weact，但是繁琐的编译流程和相对糟糕的开发体验最终没有列入 1.0 的选择范围，但这次在选框架的时候 <strong>Taro</strong> 就冒了出来🤩。</p><p><strong>Taro</strong> 是由京东·凹凸实验室团队开发，语法规则基于 React 规范，它采用与 React 一致的组件化思想，组件生命周期与 React 保持一致，同时在书写体验上也尽量与 React 类似，支持使用 JSX 语法，让代码具有更丰富的表现力，必须再在 js / wxss / wxml / json 文件中来回切换。同时也拥有了更有没的命名规范和项目结构，微信文档中的各种命名规范 ( 驼峰、小写中划线、小写连写 )，惨不忍睹🙃。</p><p>作为一个 <strong>Reacter</strong>，那么用 Taro 来开发项目的简直可以用丝滑柔顺来形容，正如Taro自己所说的，只需要写一个版本的代码，就可以编译生成 H5、微信小程序以及 RN 的代码，在效率上确实会有所提升。但是如果是没有写过react项目的，那么可能最开始还是有学习成本。</p><h4 id="-">代码示例</h4><pre><code class="lang-js">import Taro, { Component } from &#39;@tarojs/taro&#39;
-import { View, Button } from &#39;@tarojs/components&#39;
-import { connect } from &#39;@tarojs/redux&#39;
-import &#39;./index.scss&#39;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[CanisMinor]]></title><description><![CDATA[来自 CanisMinor 博客的订阅信息 - CanisMinor RSS Feed]]></description><link>https://canisminor.cc</link><image><url>https://canisminor.cc/favicons/favicon-32x32.png</url><title>CanisMinor</title><link>https://canisminor.cc</link></image><generator>RSS for Node</generator><lastBuildDate>Thu, 06 Sep 2018 01:36:12 GMT</lastBuildDate><atom:link href="https://canisminor.cc/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[CanisMinor 2018 版权所有]]></copyright><language><![CDATA[zh-cn]]></language><managingEditor><![CDATA[CanisMinor]]></managingEditor><webMaster><![CDATA[CanisMinor]]></webMaster><category><![CDATA[design]]></category><category><![CDATA[coding]]></category><category><![CDATA[ued]]></category><category><![CDATA[fe]]></category><category><![CDATA[ui/ux]]></category><item><title><![CDATA[CanisMinor WxApp 2.0]]></title><description><![CDATA[<p><img src="https://img.shields.io/github/release/canisminor1990/canisminor-wxapp.svg" alt="auto"></p><p>随着前几天的个网 2.0 改版，因为重构了前端和后端导致之前的微信小程序使用的很多旧接口已不再维护，所以抽了 2 天时间把微信小程序从头到尾连 UI 到框架都重写了一遍（🌚 设计师开发的好处就是可以不画设计稿直接开写...）。年初找类 React 框架的时候，只发现了食之无味弃之可惜的 weact，但是繁琐的编译流程和相对糟糕的开发体验最终没有列入 1.0 的选择范围，但这次在选框架的时候 <strong>Taro</strong> 就冒了出来 🤩。</p><p><strong>Taro</strong> 是由京东·凹凸实验室团队开发，语法规则基于 React 规范，它采用与 React 一致的组件化思想，组件生命周期与 React 保持一致，同时在书写体验上也尽量与 React 类似，支持使用 JSX 语法，让代码具有更丰富的表现力，必须再在 js / wxss / wxml / json 文件中来回切换。同时也拥有了更有没的命名规范和项目结构，微信文档中的各种命名规范 ( 驼峰、小写中划线、小写连写 )，惨不忍睹 🙃。</p><p>作为一个 <strong>Reacter</strong>，那么用 Taro 来开发项目的简直可以用丝滑柔顺来形容，正如 Taro 自己所说的，只需要写一个版本的代码，就可以编译生成 H5、微信小程序以及 RN 的代码，在效率上确实会有所提升。但是如果是没有写过 react 项目的，那么可能最开始还是有学习成本。</p><h4 id="-">代码示例</h4><pre><code class="lang-js">import Taro, { Component } from &quot;@tarojs/taro&quot;;
+import { View, Button } from &quot;@tarojs/components&quot;;
+import { connect } from &quot;@tarojs/redux&quot;;
+import &quot;./index.scss&quot;;
 
 @connect(({ home, loading }) =&gt; ({
   ...home,
-  loading: loading.effects[&#39;home/get&#39;],
+  loading: loading.effects[&quot;home/get&quot;]
 }))
-
 export default class extends Component {
-  constructor () {
-    super(...arguments)
+  constructor() {
+    super(...arguments);
     this.state = {
-      title: &#39;首页&#39;,
+      title: &quot;首页&quot;,
       list: [1, 2, 3]
-    }
+    };
   }
 
   config = {
-    navigationBarTitleText: &#39;Home&#39;,
-  }
+    navigationBarTitleText: &quot;Home&quot;
+  };
 
-  componentWillMount () {}
+  componentWillMount() {}
 
   componentDidMount = () =&gt; {
-    this.props.dispatch(action(&#39;home/get&#39;));
-  }
+    this.props.dispatch(action(&quot;home/get&quot;));
+  };
 
-  componentWillUpdate (nextProps, nextState) {}
+  componentWillUpdate(nextProps, nextState) {}
 
-  componentDidUpdate (prevProps, prevState) {}
+  componentDidUpdate(prevProps, prevState) {}
 
-  shouldComponentUpdate (nextProps, nextState) {
-    return true
+  shouldComponentUpdate(nextProps, nextState) {
+    return true;
   }
 
   onShareAppMessage = () =&gt; {
     return {
-      title: &#39;Home&#39;,
-      path: &#39;routes/home/index&#39;,
-    }
-  }
+      title: &quot;Home&quot;,
+      path: &quot;routes/home/index&quot;
+    };
+  };
 
-  onClick = (str) =&gt; {
+  onClick = str =&gt; {
     // dosth
-  }
+  };
 
-  render () {
+  render() {
     return (
-      &lt;View className=&#39;index&#39;&gt;
-        &lt;View className=&#39;title&#39;&gt;{this.state.title}&lt;/View&gt;
-        &lt;View className=&#39;content&#39;&gt;
-          {this.state.list.map(item =&gt; &lt;View className=&#39;item&#39;&gt;{item}&lt;/View&gt; )}
-          &lt;Button className=&#39;add&#39; onClick={this.onClick.bind(this,&quot;str&quot;)}&gt;添加&lt;/Button&gt;
+      &lt;View className=&quot;index&quot;&gt;
+        &lt;View className=&quot;title&quot;&gt;{this.state.title}&lt;/View&gt;
+        &lt;View className=&quot;content&quot;&gt;
+          {this.state.list.map(item =&gt; (
+            &lt;View className=&quot;item&quot;&gt;{item}&lt;/View&gt;
+          ))}
+          &lt;Button className=&quot;add&quot; onClick={this.onClick.bind(this, &quot;str&quot;)}&gt;
+            添加
+          &lt;/Button&gt;
         &lt;/View&gt;
       &lt;/View&gt;
-    )
+    );
   }
 }
-</code></pre><h2 id="intro">Intro</h2><ul><li>支持使用 <code>npm</code> / <code>yarn</code> 安装管理第三方依赖。</li><li>支持使用 <code>ES7</code> / <code>ES8</code> 甚至更加新的 ES 规范，一切都可自行配置。</li><li>使用 <code>prettier</code> 进行代码格式管理。</li><li>支持使用 <code>CSS</code> 预编译器，如 <code>SASS / LESS / postCSS</code> 等。</li><li>支持使用 <code>Dva</code> / <code>Redux</code> 进行状态管理。</li><li>小程序 <code>API</code>优化，异步 <code>API Promise</code> 化等等。</li><li>使用 <code>remarkable</code> 提供完整 <code>markdown</code> 解析方案。</li><li>所有外链自动转换为 <code>Qrcode</code> 并将连接复制到剪切板。</li><li>因为个人开发者不支持 <code>video</code> 也自动转为 <code>Qrcode</code> 。</li></ul><h2 id="preview">Preview</h2><p><img src="http://qn.canisminor.cc/2018-09-06-wxapp.png" alt=""></p><h2 id="dev">Dev</h2><p><strong>Github Repo:</strong> <a href="https://github.com/canisminor1990/canisminor-wxapp">https://github.com/canisminor1990/canisminor-wxapp</a></p><h4 id="-npm-yarn-">使用 npm 或者 yarn 全局安装</h4><pre><code class="lang-bash">$ npm install -g @tarojs/cli
+</code></pre><h2 id="intro">Intro</h2><ul><li>支持使用 <code>npm</code> / <code>yarn</code> 安装管理第三方依赖。</li><li>支持使用 <code>ES7</code> / <code>ES8</code> 甚至更加新的 ES 规范，一切都可自行配置。</li><li>使用 <code>prettier</code> 进行代码格式管理。</li><li>支持使用 <code>CSS</code> 预编译器，如 <code>SASS / LESS / postCSS</code> 等。</li><li>支持使用 <code>Dva</code> / <code>Redux</code> 进行状态管理。</li><li>小程序 <code>API</code>优化，异步 <code>API Promise</code> 化等等。</li><li>使用 <code>remarkable</code> 提供完整 <code>markdown</code> 解析方案。</li><li>所有外链自动转换为 <code>Qrcode</code> 并将连接复制到剪切板。</li><li>因为个人开发者不支持 <code>video</code> 也自动转为 <code>Qrcode</code> 。</li></ul><h2 id="preview">Preview</h2><p><img src="http://qn.canisminor.cc/2018-09-06-wxapp.png" alt=""></p><h4 id="extra">Extra</h4><p><img src="http://qn.canisminor.cc/2018-09-06-wxapp-2.png" alt=""></p><h2 id="dev">Dev</h2><p><strong>Github Repo:</strong> <a href="https://github.com/canisminor1990/canisminor-wxapp">https://github.com/canisminor1990/canisminor-wxapp</a></p><h4 id="-npm-yarn-">使用 npm 或者 yarn 全局安装</h4><pre><code class="lang-bash">$ npm install -g @tarojs/cli
 # or
 $ yarn global add @tarojs/cli
-</code></pre><h4 id="-npm-yarn-">使用npm 或者yarn 安装依赖</h4><pre><code class="lang-bash">$ npm install
+</code></pre><h4 id="-npm-yarn-">使用 npm 或者 yarn 安装依赖</h4><pre><code class="lang-bash">$ npm install
 # or
 $ yarn
 </code></pre><h4 id="-">启动 / 编译小程序</h4><pre><code class="lang-bash"># dev + watch
@@ -98,7 +101,7 @@ $ yarn build
   ...
 - project.config.json
 - package.json
-</code></pre><h2 id="link">Link</h2><ul><li><strong>Taro:</strong><ul><li><a href="https://github.com/NervJS/taro">Repo</a></li><li><a href="https://nervjs.github.io/taro/config-detail.html">文档</a></li></ul></li><li><strong>WxApp:</strong><ul><li><a href="https://mp.weixin.qq.com/debug/wxadoc/dev/framework/MINA.html">框架</a></li><li><a href="https://mp.weixin.qq.com/debug/wxadoc/dev/component/">组件</a></li><li><a href="https://mp.weixin.qq.com/debug/wxadoc/dev/api/">API</a></li><li><a href="https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html">开发者工具</a></li></ul></li></ul><p><img src="http://qn.canisminor.cc/2018-09-05-wx-qrcode.png" alt="200px"></p>...]]></description><link>https://canisminor.cc/blog/posts/20180906_wxapp?source=feed</link><guid isPermaLink="true">https://canisminor.cc/blog/posts/20180906_wxapp?source=feed</guid><dc:creator><![CDATA[CanisMinor]]></dc:creator><pubDate>Wed, 05 Sep 2018 16:00:00 GMT</pubDate></item><item><title><![CDATA[CanisMinor]]></title><description><![CDATA[<h2 id="tech">TECH</h2><p>先列举下这次个站开发使用到的一些主要的包技术栈：</p><p><strong>前端</strong></p><ul><li><code>React</code> + <code>Redux</code> ( <code>dva</code> )</li><li><code>Webpack</code> ( <code>Roadhog</code> )</li><li><code>Styled Components</code></li><li><code>Ant Motion</code></li></ul><p><strong>后端</strong></p><ul><li><code>NodeJs</code> + <code>Express</code></li><li><code>LowDB</code></li><li><strong>Blog:</strong><ul><li><code>Markdown</code></li><li><code>Gulp</code></li></ul></li></ul><p><strong>服务</strong></p><ul><li>阿里云</li><li>七牛</li><li>Mailgun</li></ul><p><img src="http://qn.canisminor.cc/2018-08-24-cm-1.png" alt=""></p><h2 id="design">Design</h2><p><img src="http://qn.canisminor.cc/2018-08-24-cm-2.png" alt=""></p><h4 id="-">字体选择</h4><p>在英文字体的选择上，使用了 Airbnb 最新推出的 Cereal 字族，而没有选择之前最常用的 Futural 与 Gotham，原因是其弥补了前两者在我个人感官上的的一些缺点，Futura 曾是 BBC、宜家等品牌的选择，在 500 字重的表现上很惊艳，但是当涉及到之后的自重就变得一团黑而且横向扩张非常恐怖，字重间的调整并不平滑。而 Gotham 具有漂亮的几何机构在网页上的显示效果也具有很高的清晰度与可读性，也是腾讯 ISUX 当前的默认英文字体，但是由于整个字体设计较扁和中文搭配阅读时会有一些不自然感。Cereal 在我看来既拥有 Gotham 般优美的几何机构，同时会更加具有时代感与俏皮一些，字重间过度自然，不同字重的横向扩张也控制得非常到位。代码片段的字体选用了我习惯的 Hack 字族，Monaco 的完美替代品，也是我所有 IDE 的设定字体。</p><p><img src="http://qn.canisminor.cc/2018-08-27-cm-3.png" alt=""></p><h4 id="-">字号&amp;行高管理</h4><p>字号的算法参考了 Ant.Design 3.0 的设计分享，不同的是我并不是工具类应用因此在初始字号的选择上为 16px (1rem) 而非 Antd 的 14px，方便于 UI 控件单位控制。</p><blockquote><p>f0 我们可以理解成为起始字号，也就是主字体，我们前面有推导出来为 14px。r 的值决定了这条曲线的趋势，可以理解成字阶的生长一个趋势。这个数值的启发来源于自然常数 e，这是一个无理数，大约等于 2.71828。n 则代表了我们如何在曲线上取对应的数字，决定这个数值大小的关键在于我们希望相邻的两个字号之间的差距是大还是小。Spencer 在他的文章中有提到过，建议 n 在选择上可以参考音律的规则，比如说 3 音阶、4 音阶、5 音阶、7 音阶等等，这样可以令字阶呈现出一种自然的节奏感。在做了大量的页面落地试验之后我们将这个数值定成 5。映射到音乐的世界中，正好是 5 音阶。5 声音阶是很多古典乐遵循的规律，比如我国古代的宫商角徵羽。</p><p>我们将三个数值代入到前面公式之后，可以得到一组关于字阶的原始数组。它们是基于 14px 的字体，以自然常数的生长律，同时用 5 声音阶的单元切分方式得出来的。</p><p>在第二个问题的解决过程，字阶的规律是一个幂函数。决定这个幂函数结果的变量是起始字号、生长律以及单元等分的次数。目前我们只取了曲线上的 10 个字号作为默认的字阶，当设计对字体有更大的要求的时候，同样可以基于这个规律快速锁定我们想要的字号。</p><p><strong>OK，有了字阶，我们就可以进一步推导第三个问题：多大的行高是自然的？</strong></p><p>行高大家都知道指的是一个字体外框的肉眼不可见的部分。在 Ant Design 的第一版行高计算思路中，我们用字体乘一个固定的倍数去定义行高。但在实际设计中，我们发现这样的方式会有一个问题，当字体越大，行高也会越来越大。在字体 2.0 的时候，我们在字阶上做了一个分水岭，超过某一个字号的字体行高一律乘以一倍。但以上这两种做法会增加我们在排版布局层面的规则复杂度，同时不便于计算和记忆。在 3.0 这个阶段，我们决定尝试用『自然』来解决这一问题。首先，我们需要定义出行高的计算规律，除了字阶的计算公式之外，我们还有另外两个信息的输入：</p><ul><li>设计师希望字体高度和行高之间能从静态黄金比出发。</li><li>但是基于设计经验，同时不给布局造成压力，我们希望行高的增长速度能够随着字体的增长逐渐趋向于缓慢，并且最终不要超过 1 倍。</li></ul><p>借由这样的思路。我们在字号的基础之上将增长率做了一个自然律反相的负增长，从而定义了行高的计算公式。根据这一公式，同样的我们得到了一组原始的行高数组。</p></blockquote><p><img src="http://qn.canisminor.cc/2018-08-24-cm-4.png" alt=""></p><p>由于 Antd 分享并没有展示实际的算法，于是我花了些时间推导了一份字号与行高的实际算法，用于在网站上直接引用。</p><p><img src="http://qn.canisminor.cc/2018-08-24-cm-5.png" alt=""></p><p>最终的效果展示（左），与常见的 1.5 倍行距（右）相比，显得更有节奏感，同时在大字号的选择上也不会手足无措。</p><p><img src="http://qn.canisminor.cc/2018-08-24-cm-7.png" alt=""><img src="http://qn.canisminor.cc/2018-08-24-cm-6.png" alt=""></p><h4 id="-">自适应区间</h4><ul><li><strong>Desktop - XXL: 1580px</strong></li><li>Desktop - XL: 1280px</li><li>Desktop - L: 1080px</li><li><strong>Mobile - M: 780px</strong></li><li>Mobile - S: 580px</li><li>Mobile - XS: 380px</li></ul><p>得益于 <code>styled-components</code> 的使用，各种样式与媒体查询可以用 JS 轻松管理。</p><pre><code class="lang-js">const screen = {
+</code></pre><h2 id="link">Link</h2><p><img src="http://qn.canisminor.cc/2018-09-05-wx-qrcode.png" alt="200px"></p><ul><li><strong>Taro:</strong><ul><li><a href="https://github.com/NervJS/taro">Repo</a></li><li><a href="https://nervjs.github.io/taro/config-detail.html">文档</a></li></ul></li><li><strong>WxApp:</strong><ul><li><a href="https://mp.weixin.qq.com/debug/wxadoc/dev/framework/MINA.html">框架</a></li><li><a href="https://mp.weixin.qq.com/debug/wxadoc/dev/component/">组件</a></li><li><a href="https://mp.weixin.qq.com/debug/wxadoc/dev/api/">API</a></li><li><a href="https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html">开发者工具</a></li></ul></li></ul>...]]></description><link>https://canisminor.cc/blog/posts/20180906_wxapp?source=feed</link><guid isPermaLink="true">https://canisminor.cc/blog/posts/20180906_wxapp?source=feed</guid><dc:creator><![CDATA[CanisMinor]]></dc:creator><pubDate>Wed, 05 Sep 2018 16:00:00 GMT</pubDate></item><item><title><![CDATA[CanisMinor]]></title><description><![CDATA[<h2 id="tech">TECH</h2><p>先列举下这次个站开发使用到的一些主要的包技术栈：</p><p><strong>前端</strong></p><ul><li><code>React</code> + <code>Redux</code> ( <code>dva</code> )</li><li><code>Webpack</code> ( <code>Roadhog</code> )</li><li><code>Styled Components</code></li><li><code>Ant Motion</code></li></ul><p><strong>后端</strong></p><ul><li><code>NodeJs</code> + <code>Express</code></li><li><code>LowDB</code></li><li><strong>Blog:</strong><ul><li><code>Markdown</code></li><li><code>Gulp</code></li></ul></li></ul><p><strong>服务</strong></p><ul><li>阿里云</li><li>七牛</li><li>Mailgun</li></ul><p><img src="http://qn.canisminor.cc/2018-08-24-cm-1.png" alt=""></p><h2 id="design">Design</h2><p><img src="http://qn.canisminor.cc/2018-08-24-cm-2.png" alt=""></p><h4 id="-">字体选择</h4><p>在英文字体的选择上，使用了 Airbnb 最新推出的 Cereal 字族，而没有选择之前最常用的 Futural 与 Gotham，原因是其弥补了前两者在我个人感官上的的一些缺点，Futura 曾是 BBC、宜家等品牌的选择，在 500 字重的表现上很惊艳，但是当涉及到之后的自重就变得一团黑而且横向扩张非常恐怖，字重间的调整并不平滑。而 Gotham 具有漂亮的几何机构在网页上的显示效果也具有很高的清晰度与可读性，也是腾讯 ISUX 当前的默认英文字体，但是由于整个字体设计较扁和中文搭配阅读时会有一些不自然感。Cereal 在我看来既拥有 Gotham 般优美的几何机构，同时会更加具有时代感与俏皮一些，字重间过度自然，不同字重的横向扩张也控制得非常到位。代码片段的字体选用了我习惯的 Hack 字族，Monaco 的完美替代品，也是我所有 IDE 的设定字体。</p><p><img src="http://qn.canisminor.cc/2018-08-27-cm-3.png" alt=""></p><h4 id="-">字号&amp;行高管理</h4><p>字号的算法参考了 Ant.Design 3.0 的设计分享，不同的是我并不是工具类应用因此在初始字号的选择上为 16px (1rem) 而非 Antd 的 14px，方便于 UI 控件单位控制。</p><blockquote><p>f0 我们可以理解成为起始字号，也就是主字体，我们前面有推导出来为 14px。r 的值决定了这条曲线的趋势，可以理解成字阶的生长一个趋势。这个数值的启发来源于自然常数 e，这是一个无理数，大约等于 2.71828。n 则代表了我们如何在曲线上取对应的数字，决定这个数值大小的关键在于我们希望相邻的两个字号之间的差距是大还是小。Spencer 在他的文章中有提到过，建议 n 在选择上可以参考音律的规则，比如说 3 音阶、4 音阶、5 音阶、7 音阶等等，这样可以令字阶呈现出一种自然的节奏感。在做了大量的页面落地试验之后我们将这个数值定成 5。映射到音乐的世界中，正好是 5 音阶。5 声音阶是很多古典乐遵循的规律，比如我国古代的宫商角徵羽。</p><p>我们将三个数值代入到前面公式之后，可以得到一组关于字阶的原始数组。它们是基于 14px 的字体，以自然常数的生长律，同时用 5 声音阶的单元切分方式得出来的。</p><p>在第二个问题的解决过程，字阶的规律是一个幂函数。决定这个幂函数结果的变量是起始字号、生长律以及单元等分的次数。目前我们只取了曲线上的 10 个字号作为默认的字阶，当设计对字体有更大的要求的时候，同样可以基于这个规律快速锁定我们想要的字号。</p><p><strong>OK，有了字阶，我们就可以进一步推导第三个问题：多大的行高是自然的？</strong></p><p>行高大家都知道指的是一个字体外框的肉眼不可见的部分。在 Ant Design 的第一版行高计算思路中，我们用字体乘一个固定的倍数去定义行高。但在实际设计中，我们发现这样的方式会有一个问题，当字体越大，行高也会越来越大。在字体 2.0 的时候，我们在字阶上做了一个分水岭，超过某一个字号的字体行高一律乘以一倍。但以上这两种做法会增加我们在排版布局层面的规则复杂度，同时不便于计算和记忆。在 3.0 这个阶段，我们决定尝试用『自然』来解决这一问题。首先，我们需要定义出行高的计算规律，除了字阶的计算公式之外，我们还有另外两个信息的输入：</p><ul><li>设计师希望字体高度和行高之间能从静态黄金比出发。</li><li>但是基于设计经验，同时不给布局造成压力，我们希望行高的增长速度能够随着字体的增长逐渐趋向于缓慢，并且最终不要超过 1 倍。</li></ul><p>借由这样的思路。我们在字号的基础之上将增长率做了一个自然律反相的负增长，从而定义了行高的计算公式。根据这一公式，同样的我们得到了一组原始的行高数组。</p></blockquote><p><img src="http://qn.canisminor.cc/2018-08-24-cm-4.png" alt=""></p><p>由于 Antd 分享并没有展示实际的算法，于是我花了些时间推导了一份字号与行高的实际算法，用于在网站上直接引用。</p><p><img src="http://qn.canisminor.cc/2018-08-24-cm-5.png" alt=""></p><p>最终的效果展示（左），与常见的 1.5 倍行距（右）相比，显得更有节奏感，同时在大字号的选择上也不会手足无措。</p><p><img src="http://qn.canisminor.cc/2018-08-24-cm-7.png" alt=""><img src="http://qn.canisminor.cc/2018-08-24-cm-6.png" alt=""></p><h4 id="-">自适应区间</h4><ul><li><strong>Desktop - XXL: 1580px</strong></li><li>Desktop - XL: 1280px</li><li>Desktop - L: 1080px</li><li><strong>Mobile - M: 780px</strong></li><li>Mobile - S: 580px</li><li>Mobile - XS: 380px</li></ul><p>得益于 <code>styled-components</code> 的使用，各种样式与媒体查询可以用 JS 轻松管理。</p><pre><code class="lang-js">const screen = {
   XXL: 1580,
   XL: 1280,
   L: 1080,
@@ -292,7 +295,7 @@ window.remoteFunc = data =&gt; {
 };
 </code></pre><h2 id="-">调试</h2><p><img src="https://user-images.githubusercontent.com/3254314/32320758-1dc414d8-bfbf-11e7-9282-1d57fc53874d.png" alt="auto"></p><ul><li>安装 <a href="https://github.com/skpm/sketch-dev-tools"><strong>sketch-dev-tools</strong></a></li></ul><p><img src="http://qn.canisminor.cc/2018-03-08-dev-1.png" alt="full"></p><p><img src="http://qn.canisminor.cc/2018-03-08-dev-2.png" alt="full"></p><p>sketch-dev-tool 可以在 sketch 中开启类似 Chrome 开发者工具的面板，方便调试，还可以直接查阅当前 sketch 文件的图层数据结构，总之非常方便。如果想在 sketch 中调试 webview，可以在 webview 中写一个 console 方法，把需要打印的内容传给 plugin 进行 debug。</p><h1 id="-">发布</h1><ul><li>打开 GitHub → Setting → Developer settings</li><li>在 <a href="https://github.com/settings/tokens">Personal access tokens</a> 中生成一个 token</li><li>需要有操作 repo 权限</li><li>使用 skpm 进行登录 (只需一次)</li></ul><pre><code class="lang-bash">$ skpm login &lt;github-token&gt;
 </code></pre><ul><li>发布版本</li></ul><pre><code class="lang-bash">$ skpm publish &lt;new-version&gt;
-</code></pre><p>发布命令会执行下操作:</p><ul><li>修改 <code>package.json</code> 版本号</li><li>git tag 当前版本</li><li>把 <code>plugin.sketchplugin</code> 文件压缩上传至 github releases 中</li><li>更新 <code>.appcast.xml</code> 文件, 通知 sketch 更新此插件</li></ul>...]]></description><link>https://canisminor.cc/blog/posts/20180308_sketchplugin?source=feed</link><guid isPermaLink="true">https://canisminor.cc/blog/posts/20180308_sketchplugin?source=feed</guid><dc:creator><![CDATA[CanisMinor]]></dc:creator><pubDate>Wed, 07 Mar 2018 16:00:00 GMT</pubDate></item><item><title><![CDATA[CanisMinor WxApp]]></title><description><![CDATA[<p><img src="https://img.shields.io/github/release/canisminor1990/canisminor-wxapp.svg" alt="auto"></p><p>为了看看小程序文档的更新现状，花了几天把 blog 用 wxapp 复刻了一遍，脚手架方面虽然诞生了一些如<a href="https://github.com/haojy/weact">weact</a>之类用<code>类React</code>方式编写小程序的项目，但都没有达到成熟可用的状态。最终使用 <code>webpack</code>, <code>dva</code>, <code>babel</code>进行开发，额外编写了一个<a href="https://github.com/canisminor1990/canisminor-wxapp/blob/master/lib/jsx2jsonLoader.js">jsx2jsonLoader</a>用来生成 json 配置文件。</p><p><strong>项目地址：</strong> <a href="https://github.com/canisminor1990/canisminor-wxapp">https://github.com/canisminor1990/canisminor-wxapp</a></p><h2 id="intro">Intro</h2><ul><li>支持引用 <code>node_modules</code> 模块</li><li>使用 <code>jsx</code> 编写小程序 <code>json</code> 配置文件</li><li>使用 <code>scss</code> 编写 <code>.wxss</code> 文件</li><li>长度单位使用 <code>postcss</code> 自动转为 <code>rem</code> 拒绝奇怪的 <code>rpx</code></li><li>支持通过配置 <code>alias</code> 来避免 <code>../../../</code> 之类的模块引用</li><li>通过 <code>babel</code> 支持更丰富的 <code>ES6</code> 兼容，包括 <code>async/await</code></li><li>内置 <code>promise</code> 和 <code>lodash</code>（<code>lodash</code> 按需引入相应模块，不会全部引入）</li><li>提供 <code>__DEV__</code> 和 <code>process.env.NODE_ENV</code> 全局常量辅助开发</li><li>支持在 <code>production</code> 环境下压缩代码</li><li>引入 <code>dva-core</code>，可在小程序环境下欢乐的使用 <code>redux</code></li><li>完整 <code>markdown</code> 解析方案</li><li>所有外链自动转换为 <code>qrcode</code></li></ul><h2 id="preview">Preview</h2><p><img src="http://qn.canisminor.cc/2018-03-05-preview.png" alt="full"></p><h2 id="dev">Dev</h2><pre><code class="lang-bash"># dev --watch
+</code></pre><p>发布命令会执行下操作:</p><ul><li>修改 <code>package.json</code> 版本号</li><li>git tag 当前版本</li><li>把 <code>plugin.sketchplugin</code> 文件压缩上传至 github releases 中</li><li>更新 <code>.appcast.xml</code> 文件, 通知 sketch 更新此插件</li></ul>...]]></description><link>https://canisminor.cc/blog/posts/20180308_sketchplugin?source=feed</link><guid isPermaLink="true">https://canisminor.cc/blog/posts/20180308_sketchplugin?source=feed</guid><dc:creator><![CDATA[CanisMinor]]></dc:creator><pubDate>Wed, 07 Mar 2018 16:00:00 GMT</pubDate></item><item><title><![CDATA[CanisMinor WxApp]]></title><description><![CDATA[<p>为了看看小程序文档的更新现状，花了几天把 blog 用 wxapp 复刻了一遍，脚手架方面虽然诞生了一些如<a href="https://github.com/haojy/weact">weact</a>之类用<code>类React</code>方式编写小程序的项目，但都没有达到成熟可用的状态。最终使用 <code>webpack</code>, <code>dva</code>, <code>babel</code>进行开发，额外编写了一个<a href="https://github.com/canisminor1990/canisminor-wxapp/blob/master/lib/jsx2jsonLoader.js">jsx2jsonLoader</a>用来生成 json 配置文件。</p><p><strong>项目地址：</strong> <a href="https://github.com/canisminor1990/canisminor-wxapp">https://github.com/canisminor1990/canisminor-wxapp</a></p><h2 id="intro">Intro</h2><ul><li>支持引用 <code>node_modules</code> 模块</li><li>使用 <code>jsx</code> 编写小程序 <code>json</code> 配置文件</li><li>使用 <code>scss</code> 编写 <code>.wxss</code> 文件</li><li>长度单位使用 <code>postcss</code> 自动转为 <code>rem</code> 拒绝奇怪的 <code>rpx</code></li><li>支持通过配置 <code>alias</code> 来避免 <code>../../../</code> 之类的模块引用</li><li>通过 <code>babel</code> 支持更丰富的 <code>ES6</code> 兼容，包括 <code>async/await</code></li><li>内置 <code>promise</code> 和 <code>lodash</code>（<code>lodash</code> 按需引入相应模块，不会全部引入）</li><li>提供 <code>__DEV__</code> 和 <code>process.env.NODE_ENV</code> 全局常量辅助开发</li><li>支持在 <code>production</code> 环境下压缩代码</li><li>引入 <code>dva-core</code>，可在小程序环境下欢乐的使用 <code>redux</code></li><li>完整 <code>markdown</code> 解析方案</li><li>所有外链自动转换为 <code>qrcode</code></li></ul><h2 id="preview">Preview</h2><p><img src="http://qn.canisminor.cc/2018-03-05-preview.png" alt="full"></p><h2 id="dev">Dev</h2><pre><code class="lang-bash"># dev --watch
 $ yarn start
 
 # build --opt
