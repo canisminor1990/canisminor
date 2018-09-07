@@ -1,7 +1,7 @@
 ---
 tag: design
 desc: Minecraft resource pack
-l: http://qn.canisminor.cc/2018-09-07-mc-l-1.png
+l: http://qn.canisminor.cc/2018-09-07-mc-l-2.png
 ---
 
 # Canisminor Craft
