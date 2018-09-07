@@ -6,7 +6,8 @@ l: http://qn.canisminor.cc/2018-09-07-mc-l-2.png
 
 # Canisminor Craft
 
-![400px](http://qn.canisminor.cc/2018-09-07-052544.jpg)
+- Minecraft 资源包设计
+- Mcbbs 资源包下载量常年 Top one
 
 ## Screenshot
 
@@ -42,6 +43,14 @@ l: http://qn.canisminor.cc/2018-09-07-mc-l-2.png
 
 **Github:** [canisminor-craft-client](https://github.com/CanisminorCraft/canisminor-craft-client)
 
+## Shader Pack
+
+To enable shader-pack you need `Canisminor Craft` Client version:
+
+- [canisminor-craft-client](https://github.com/CanisminorCraft/canisminor-craft-client)
+
 ## Link
+
+![300px](http://qn.canisminor.cc/2018-09-07-052544.jpg)
 
 - **Website:** [mcbbs](http://www.mcbbs.net/thread-126111-1-2.html)
