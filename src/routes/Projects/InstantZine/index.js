@@ -175,6 +175,7 @@ class InstantZine extends Component {
           id="InstantZine"
           controls
           playsInline
+          playload="metadata"
           webkit-playsinline="true"
           x5-playsinline="true"
           x-webkit-airplay="allow"

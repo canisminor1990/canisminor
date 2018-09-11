@@ -155,6 +155,7 @@ const renderer = {
         <video
           controls
           playsInline
+          preload="metadata"
           webkit-playsinline="true"
           x5-playsinline="true"
           x-webkit-airplay="allow"
