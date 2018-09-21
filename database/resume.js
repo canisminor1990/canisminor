@@ -49,7 +49,7 @@ module.exports = {
         title: "User Experience Expert",
         time : ["2018.10 - 至今，", "体验设计专家"],
         desc :
-          "就职(ing)蚂蚁金服，财富事业群，|蚂蚁财富相关及组件化设计工作。"
+          "入职(ing)蚂蚁金服，财富事业群，|蚂蚁财富相关及组件化设计工作。"
       },
       {
         img  : "/img/resume-experience-xmjk.png",
