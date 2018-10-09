@@ -2,7 +2,7 @@ const Year = new Date().getFullYear() - 2012;
 
 module.exports = {
   about       : {
-    introduction: `现居北京，UED全栈设计师，毕业于CAA中国美术学院09级视觉传达。${Year}年从业经验，专注于 Design » Code 设计流程管理, Atomic Design 设计模式及自动化设计，具备流行前端技术栈 React / Vue ( 阿里开源项目重度用户 Antd / Dva / Roadhog )，Sketch第三方插件作者。`,
+    introduction: `现居杭州，UED全栈设计师，毕业于CAA中国美术学院09级视觉传达。${Year}年从业经验，专注于 Design » Code 设计流程管理, Atomic Design 设计模式及自动化设计，具备流行前端技术栈 React / Vue ( 阿里开源项目重度用户 Antd / Dva / Roadhog )，Sketch第三方插件作者。`,
     showcase    : [
       { title: "birth:", desc: "1990.9.30" },
       { title: "mobile:", desc: "153-0585-3008" },
