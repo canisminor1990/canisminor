@@ -71,4 +71,9 @@ router.post('(/v2)?/mail', (req, res) => {
   });
 });
 
+router.post('(/v2)?/cubic-bezier', (req, res) => {
+  const CubicBezier = require('./routes/CubicBezier');
+  res.json(CubicBezier(req.query));
+});
+
 module.exports = router;

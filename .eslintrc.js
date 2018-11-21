@@ -28,6 +28,7 @@ module.exports = {
 		'navigator': true,
 		'localStorage': true,
 		'$isDev': true,
+		'define': true,
 	},
 	env          : {
 		'es6' : true,
