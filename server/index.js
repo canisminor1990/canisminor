@@ -10,6 +10,7 @@ app.use((req, res, next) => {
   );
   next();
 });
+
 app.use('/', require('./router'));
 app.use((req, res, next) => {
   const err = new Error('Not Found');
