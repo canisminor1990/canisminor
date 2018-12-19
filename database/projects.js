@@ -7,6 +7,12 @@ module.exports = {
       to   : "/projects/instant-zine"
     },
     {
+      cover: "http://qn.canisminor.cc/2018-12-19-anto.png",
+      title: "Anto",
+      type : "sketch plugin",
+      to   : "/blog/posts/20181219_anto"
+    },
+    {
       cover: "http://qn.canisminor.cc/2018-08-18-project-panda.png",
       title: "熊猫金库 3.0",
       type : "ui design / mobile app",
