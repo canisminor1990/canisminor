@@ -49,7 +49,7 @@ module.exports = {
         title: "User Experience Expert",
         time : ["2018.10 - 至今，", "体验设计专家"],
         desc :
-          "就职阿里巴巴蚂蚁金服AFUX，|财富事业群-用户产品体验部-设计中心，|蚂蚁财富相关及组件化设计工作。"
+          "就职阿里巴巴蚂蚁金服AFUX，|财富事业群-用户产品体验部-设计中心，|蚂蚁财富体验设计 / 中台工程化设计 / Anto开发者"
       },
       {
         img  : "/img/resume-experience-xmjk.png",
