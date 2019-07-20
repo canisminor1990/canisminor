@@ -1,6 +1,28 @@
 const Year = new Date().getFullYear();
 const article = [
   {
+    "filename": "20190612_antodiff",
+    "title": "Anto Diff",
+    "tag": "tech",
+    "desc": "Sketch diff tool",
+    "cover": {
+      "s": "http://qn.canisminor.cc/anto-s.jpg",
+      "m": "http://qn.canisminor.cc/antodiff-m.jpg",
+      "l": "http://qn.canisminor.cc/antodiff-l.jpg"
+    },
+    "date": "2019-06-12"
+  },{
+    "filename": "20181219_anto",
+    "title": "Anto",
+    "tag": "tech",
+    "desc": "Sketch 提效插件开发",
+    "cover": {
+      "s": "http://qn.canisminor.cc/antodiff-s.jpg",
+      "m": "http://qn.canisminor.cc/2018-12-19-anto-m.png",
+      "l": "http://qn.canisminor.cc/2018-12-19-anto-l.png"
+    },
+    "date": "2018-12-19"
+  },{
     "filename": "20180820_canisminor",
     "title": "CanisMinor",
     "tag": "design",
@@ -13,17 +35,6 @@ const article = [
     "date": "2018-08-20"
   },
   {
-    "filename": "20180710_panda",
-    "title": "熊猫金库项目梳理",
-    "tag": "research",
-    "desc": "创业历程与技术总结",
-    "cover": {
-      "s": false,
-      "m": false,
-      "l": "http://qn.canisminor.cc/2018-08-24-panda-l.png"
-    },
-    "date": "2018-07-10"
-  },{
     "filename": "20180308_sketchplugin",
     "title": "Skpm 插件开发",
     "tag": "tech",
@@ -35,17 +46,6 @@ const article = [
     },
     "date": "2018-03-08"
   }, {
-    "filename": "20180502_screepsdashboard",
-    "title": "Screeps Dashboard",
-    "tag": "tech",
-    "desc": "React & Lowdb 实现 Screeps 可视化 BDP 个人数据平台",
-    "cover": {
-      "s": "http://qn.canisminor.cc/2018-08-18-screeps-dashboards-s.png",
-      "m": false,
-      "l": "http://qn.canisminor.cc/2018-08-18-screeps-dashboards-l.png"
-    },
-    "date": "2018-05-02"
-  },{
     "filename": "20160224_pandaborn",
     "title": "二发熊诞生记",
     "tag": "design",
