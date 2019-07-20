@@ -2,7 +2,7 @@ const Year = new Date().getFullYear() - 2012;
 
 module.exports = {
   about       : {
-    introduction: `现居杭州，UED全栈设计师，毕业于CAA中国美术学院09级视觉传达。${Year}年从业经验，专注于 Design » Code 设计流程管理, Atomic Design 设计模式及自动化设计，具备流行前端技术栈 React / Vue ( 阿里开源项目重度用户 Antd / Dva / Roadhog )，Sketch第三方插件作者。`,
+    introduction: `现居杭州，支付宝UED全栈设计师，毕业于CAA中国美术学院09级视觉传达。${Year}年从业经验，专注于 Design » Code 设计流程管理, Atomic Design 设计模式及自动化设计，具备流行前端技术栈 React / Vue ( 阿里开源项目重度用户 Antd / Dva / Umi )，Sketch第三方插件作者。`,
     showcase    : [
       { title: "birth:", desc: "1990.9.30" },
       { title: "mobile:", desc: "153-0585-3008" },
@@ -49,7 +49,7 @@ module.exports = {
         title: "User Experience Expert",
         time : ["2018.10 - 至今，", "体验设计专家"],
         desc :
-          "就职阿里巴巴蚂蚁金服AFUX，|财富事业群-用户产品体验部-设计中心，|蚂蚁财富体验设计 / 中台工程化设计 / Anto开发者"
+          "就职阿里巴巴蚂蚁金服AFX，|支付宝事业群-支付宝设计事业部，|蚂蚁财富体验设计 / 中台工程化组件设计 / Anto开发者"
       },
       {
         img  : "/img/resume-experience-xmjk.png",

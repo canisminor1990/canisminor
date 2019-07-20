@@ -75,7 +75,7 @@ module.exports = {
       { icon: "/img/fe-skill-react.png", title: "React UI Library Development" },
       { icon: "/img/fe-skill-sketch.png", title: "Sketch Plugin Development" }
     ],
-    title : `Hello, I'm CanisMinor,|User Experience Designer &|Front-end Developer based|in Hangzhou, I create digital|products a more sexy and|usable place.`,
+    title : `Hello, I'm CanisMinor,|Alipay User Experience Designer &|Front-end Developer based|in Hangzhou, I create digital|products a more sexy and|usable place.`,
     desc  : [
       `My name is Yufan Yang a.k.a CanisMinor,|${Year - 1990} years old with ${Year -
                                                                                2012} years design experience.|I graduated at China Academy of Art with a degree in Visual Communication Design where I discovered my passion for problem solving declined to user experience design.|I am currently working as a ued director with knowledge abt design management and agile app development process.`,
