@@ -117,11 +117,11 @@ module.exports = {
   ],
   coding : [
     {
-      cover: "/img/coding-select.png",
-      title: "sketch-select",
-      desc : "🖱 Make it much more convenient to select layers with similar attributes.",
+      cover: "/img/coding-anto.png",
+      title: "anto",
+      desc : "🔵 Sketch Tools for AFUX",
       type : "sketch plugin",
-      href : "https://github.com/canisminor1990/sketch-selec"
+      href : "https://github.com/canisminor1990/anto"
     },
     {
       cover: "/img/coding-name.png",
@@ -139,18 +139,18 @@ module.exports = {
       href : "https://github.com/PandaUED/panda-design"
     },
     {
+      cover: "/img/coding-anto.png",
+      title: "anto-diff",
+      desc : "🔵 Sketch diff tool",
+      type : "electron",
+      href : "https://github.com/canisminor1990/anto-diff"
+    },
+    {
       cover: "/img/coding-bilibili.png",
       title: "bilibili-client",
       desc : "📺 Bilibili Mini-Client # Mac/Win",
       type : "electron",
       href : "https://github.com/canisminor1990/bilibili-client"
-    },
-    {
-      cover: "/img/coding-screeps.png",
-      title: "screeps-dashboard",
-      desc : "👀 Dashboard for Screeps",
-      type : "screeps",
-      href : "https://github.com/ScreepsAI/screeps-dashboard"
     },
     {
       cover: "/img/coding-ffxiv.png",
