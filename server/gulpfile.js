@@ -1,5 +1,5 @@
 const gulp = require('gulp');
-const runSequence = require('run-sequence');
+const runSequence = require('gulp4-run-sequence');
 const del = require('del');
 const fs = require('fs-extra');
 
@@ -34,7 +34,7 @@ gulp.task('add:hash', addHash);
 
 gulp.task('build:post', buildBlog);
 
-gulp.task('build:blog', () => {
+gulp.task('build:blog', cb => {
   return runSequence(['del', 'add:hash', 'build:post']);
 });
 
