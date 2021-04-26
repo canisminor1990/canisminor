@@ -6,9 +6,9 @@ const article = [
     "tag": "tech",
     "desc": "Sketch diff tool",
     "cover": {
-      "s": "http://qn.canisminor.cc/anto-s.jpg",
-      "m": "http://qn.canisminor.cc/antodiff-m.jpg",
-      "l": "http://qn.canisminor.cc/antodiff-l.jpg"
+      "s": "https://oss.canisminor.cc/anto-s.jpg",
+      "m": "https://oss.canisminor.cc/antodiff-m.jpg",
+      "l": "https://oss.canisminor.cc/antodiff-l.jpg"
     },
     "date": "2019-06-12"
   },{
@@ -17,9 +17,9 @@ const article = [
     "tag": "tech",
     "desc": "Sketch 提效插件开发",
     "cover": {
-      "s": "http://qn.canisminor.cc/antodiff-s.jpg",
-      "m": "http://qn.canisminor.cc/2018-12-19-anto-m.png",
-      "l": "http://qn.canisminor.cc/2018-12-19-anto-l.png"
+      "s": "https://oss.canisminor.cc/antodiff-s.jpg",
+      "m": "https://oss.canisminor.cc/2018-12-19-anto-m.png",
+      "l": "https://oss.canisminor.cc/2018-12-19-anto-l.png"
     },
     "date": "2018-12-19"
   },{
@@ -28,9 +28,9 @@ const article = [
     "tag": "design",
     "desc": "Design & development records of personal site",
     "cover": {
-      "s": "http://qn.canisminor.cc/2018-08-27-canisminor-s.png",
+      "s": "https://oss.canisminor.cc/2018-08-27-canisminor-s.png",
       "m": false,
-      "l": "http://qn.canisminor.cc/2018-08-27-canisminor-l.png"
+      "l": "https://oss.canisminor.cc/2018-08-27-canisminor-l.png"
     },
     "date": "2018-08-20"
   },
@@ -42,7 +42,7 @@ const article = [
     "cover": {
       "s": false,
       "m": false,
-      "l": "http://qn.canisminor.cc/2018-08-18-skpm.png"
+      "l": "https://oss.canisminor.cc/2018-08-18-skpm.png"
     },
     "date": "2018-03-08"
   }, {
@@ -53,7 +53,7 @@ const article = [
     "cover": {
       "s": false,
       "m": false,
-      "l": "http://qn.canisminor.cc/2018-08-22-born-l.png"
+      "l": "https://oss.canisminor.cc/2018-08-22-born-l.png"
     },
     "date": "2016-02-24"
   },
@@ -84,32 +84,32 @@ module.exports = {
   },
   design : [
     {
-      cover: "http://qn.canisminor.cc/project-instantzine.png",
+      cover: "https://oss.canisminor.cc/project-instantzine.png",
       title: "须臾映社 Instant-Zine",
       type : "typography / photography",
       to   : "/projects/instant-zine"
     }, {
-      cover: "http://qn.canisminor.cc/2018-08-18-project-panda.png",
+      cover: "https://oss.canisminor.cc/2018-08-18-project-panda.png",
       title: "熊猫金库 3.0",
       type : "ui design / mobile app",
       to   : "/blog/posts/20180101_panda"
     }, {
-      cover: "http://qn.canisminor.cc/2018-08-22-project-3dpanda.png",
+      cover: "https://oss.canisminor.cc/2018-08-22-project-3dpanda.png",
       title: "3D二发熊角色设定",
       type : "3d character design",
       to   : "/blog/posts/20171201_3dpanda"
     }, {
-      cover: "http://qn.canisminor.cc/2018-08-18-project-quanda.png",
+      cover: "https://oss.canisminor.cc/2018-08-18-project-quanda.png",
       title: "Quanda ICO",
       type : "brand design / ui design",
       to   : "/blog/posts/20180212_quanda"
     }, {
-      cover: "http://qn.canisminor.cc/2018-08-18-project-hujiang.png",
+      cover: "https://oss.canisminor.cc/2018-08-18-project-hujiang.png",
       title: "沪江学习 Hujiang",
       type : "ui design / mobile app",
       to   : "/blog/posts/20151101_hujiang"
     }, {
-      cover: "http://qn.canisminor.cc/2018-08-21-project-cc.png",
+      cover: "https://oss.canisminor.cc/2018-08-21-project-cc.png",
       title: "开心词场 Hujiang",
       type : "ui design / mobile app",
       to   : "/blog/posts/20150122_cichang"

@@ -1,8 +1,8 @@
 ---
 tag: design
 desc: Design & development records of personal site
-l: http://qn.canisminor.cc/2018-08-27-canisminor-l.png
-s: http://qn.canisminor.cc/2018-08-27-canisminor-s.png
+l: https://oss.canisminor.cc/2018-08-27-canisminor-l.png
+s: https://oss.canisminor.cc/2018-08-27-canisminor-s.png
 ---
 
 # CanisMinor
@@ -32,17 +32,17 @@ s: http://qn.canisminor.cc/2018-08-27-canisminor-s.png
 - 七牛
 - Mailgun
 
-![](http://qn.canisminor.cc/2018-08-24-cm-1.png)
+![](https://oss.canisminor.cc/2018-08-24-cm-1.png)
 
 ## Design
 
-![](http://qn.canisminor.cc/2018-08-24-cm-2.png)
+![](https://oss.canisminor.cc/2018-08-24-cm-2.png)
 
 #### 字体选择
 
 在英文字体的选择上，使用了 Airbnb 最新推出的 Cereal 字族，而没有选择之前最常用的 Futural 与 Gotham，原因是其弥补了前两者在我个人感官上的的一些缺点，Futura 曾是 BBC、宜家等品牌的选择，在 500 字重的表现上很惊艳，但是当涉及到之后的自重就变得一团黑而且横向扩张非常恐怖，字重间的调整并不平滑。而 Gotham 具有漂亮的几何机构在网页上的显示效果也具有很高的清晰度与可读性，也是腾讯 ISUX 当前的默认英文字体，但是由于整个字体设计较扁和中文搭配阅读时会有一些不自然感。Cereal 在我看来既拥有 Gotham 般优美的几何机构，同时会更加具有时代感与俏皮一些，字重间过度自然，不同字重的横向扩张也控制得非常到位。代码片段的字体选用了我习惯的 Hack 字族，Monaco 的完美替代品，也是我所有 IDE 的设定字体。
 
-![](http://qn.canisminor.cc/2018-08-27-cm-3.png)
+![](https://oss.canisminor.cc/2018-08-27-cm-3.png)
 
 #### 字号&行高管理
 
@@ -63,15 +63,15 @@ s: http://qn.canisminor.cc/2018-08-27-canisminor-s.png
 >
 > 借由这样的思路。我们在字号的基础之上将增长率做了一个自然律反相的负增长，从而定义了行高的计算公式。根据这一公式，同样的我们得到了一组原始的行高数组。
 
-![](http://qn.canisminor.cc/2018-08-24-cm-4.png)
+![](https://oss.canisminor.cc/2018-08-24-cm-4.png)
 
 由于 Antd 分享并没有展示实际的算法，于是我花了些时间推导了一份字号与行高的实际算法，用于在网站上直接引用。
 
-![](http://qn.canisminor.cc/2018-08-24-cm-5.png)
+![](https://oss.canisminor.cc/2018-08-24-cm-5.png)
 
 最终的效果展示（左），与常见的 1.5 倍行距（右）相比，显得更有节奏感，同时在大字号的选择上也不会手足无措。
 
-![](http://qn.canisminor.cc/2018-08-24-cm-7.png)![](http://qn.canisminor.cc/2018-08-24-cm-6.png)
+![](https://oss.canisminor.cc/2018-08-24-cm-7.png)![](https://oss.canisminor.cc/2018-08-24-cm-6.png)
 
 #### 自适应区间
 
@@ -105,27 +105,27 @@ function media(size) {
 
 #### Hola
 
-![](http://qn.canisminor.cc/2018-08-27-cm-7.png)![](http://qn.canisminor.cc/2018-08-27-cm-8.png)![](http://qn.canisminor.cc/2018-08-27-cm-9.png)
+![](https://oss.canisminor.cc/2018-08-27-cm-7.png)![](https://oss.canisminor.cc/2018-08-27-cm-8.png)![](https://oss.canisminor.cc/2018-08-27-cm-9.png)
 
 #### Resume
 
-![](http://qn.canisminor.cc/2018-08-27-cm-10.png)![](http://qn.canisminor.cc/2018-08-27-cm-10-2.png)
+![](https://oss.canisminor.cc/2018-08-27-cm-10.png)![](https://oss.canisminor.cc/2018-08-27-cm-10-2.png)
 
 设计这几个页面的时候，想起刚好家里有一台闲置的 XBox kniect，得益于红外测距功能和公开的 SDK，可以拿来做一些简单的 3D 扫描建模工作，经过 C4D 的后期修正，能够得到一个精度还算可以的头部建模。
 
-![](http://qn.canisminor.cc/2018-08-27-cm-13.png)![](http://qn.canisminor.cc/2018-08-27-cm-12.png)
+![](https://oss.canisminor.cc/2018-08-27-cm-13.png)![](https://oss.canisminor.cc/2018-08-27-cm-12.png)
 
 #### Blog
 
-![](http://qn.canisminor.cc/2018-08-27-cm-14.png)
+![](https://oss.canisminor.cc/2018-08-27-cm-14.png)
 
 #### Projects
 
-![](http://qn.canisminor.cc/2018-08-27-cm-15.png)
+![](https://oss.canisminor.cc/2018-08-27-cm-15.png)
 
 #### Contact
 
-![](http://qn.canisminor.cc/2018-08-27-cm-16.png)
+![](https://oss.canisminor.cc/2018-08-27-cm-16.png)
 
 ## Links
 

@@ -1,8 +1,8 @@
 ---
 tag: tech
 desc: React & Lowdb 实现 Screeps 可视化 BDP 个人数据平台
-s: http://qn.canisminor.cc/2018-08-18-screeps-dashboards-s.png
-l: http://qn.canisminor.cc/2018-08-18-screeps-dashboards-l.png
+s: https://oss.canisminor.cc/2018-08-18-screeps-dashboards-s.png
+l: https://oss.canisminor.cc/2018-08-18-screeps-dashboards-l.png
 ---
 
 # Screeps Dashboard
@@ -15,7 +15,7 @@ l: http://qn.canisminor.cc/2018-08-18-screeps-dashboards-l.png
 >
 > Screeps means “scripting creeps.” It’s an open-source sandbox MMO RTS game for programmers, wherein the core mechanic is programming your units’ AI. You control your colony by writing JavaScript which operate 24/7 in the single persistent real-time world filled by other players on par with you.
 
-![](http://qn.canisminor.cc/2018-08-18-054310.png)
+![](https://oss.canisminor.cc/2018-08-18-054310.png)
 
 自从去年孤军奋战两个月被侵略型 Alliance 打爆后就歇了 🤒，最近看了官方的更新，新加了一些好玩特性，把图形引擎从 SVG 换成了 WebGL，并引入了 shard 概念，新区每 tick 稳定在 3s 左右(基本比老区快了将近 1 倍)，就决定回坑开新局。拿 Typescript 完整重写了状态机和 creep 逻辑，并美化了 console 的数据输出（ as a designer ）, 其中发现一个痛点官方并没有提供一个令人满意 Dashboard，每天需要花大量时间遍历自己的 Room 观察发展状态，也没有便捷的查询自己交易和传输记录的地方，那就自己动手丰衣足食吧 🙌。
 
@@ -66,7 +66,7 @@ $ yarn build
 
 我当前的位置为 [Sharp3 E13N12](https://screeps.com/a/#!/profile/CanisMinor) , ScreepAI [项目地址](https://github.com/ScreepsAI/screeps)， 欢迎做邻居 😉
 
-![](http://qn.canisminor.cc/2018-08-18-screeps-1.png)
+![](https://oss.canisminor.cc/2018-08-18-screeps-1.png)
 
 ## Link
 

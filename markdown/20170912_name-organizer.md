@@ -1,7 +1,7 @@
 ---
 tag: tech
 desc: 原创 Sketch 画板&命名管理插件
-l: http://qn.canisminor.cc/2018-08-18-name.png
+l: https://oss.canisminor.cc/2018-08-18-name.png
 ---
 
 # Name Organizer
@@ -24,17 +24,17 @@ l: http://qn.canisminor.cc/2018-08-18-name.png
 
 ### Name Organizer
 
-![350px](http://qn.canisminor.cc/2018-03-12-rm-dialog-1.png)
+![350px](https://oss.canisminor.cc/2018-03-12-rm-dialog-1.png)
 
 使用 `⌃` + `⌘` + `N` 打开插件弹窗
 
-![300px](http://qn.canisminor.cc/2017-09-24-115417.jpg)
+![300px](https://oss.canisminor.cc/2017-09-24-115417.jpg)
 
 ### Rename Layers
 
 美化图层名，并根据图层所应用的文字、图层样式，或所隶属的 symbol 重名图层（全局）
 
-![](http://qn.canisminor.cc/2017-09-24-115441.jpg)
+![](https://oss.canisminor.cc/2017-09-24-115441.jpg)
 
 ### Name Format
 
@@ -83,16 +83,16 @@ __FOO_BAR__ => Foo Bar
 按画板所在的 x,y 坐标给画板排序，并给画板加上顺序前缀 (格式为 01:图层名),
 然后按顺序重新排列画板
 
-![](http://qn.canisminor.cc/2017-09-24-115514.jpg)
+![](https://oss.canisminor.cc/2017-09-24-115514.jpg)
 
-![](http://qn.canisminor.cc/2017-09-24-115428.jpg)
+![](https://oss.canisminor.cc/2017-09-24-115428.jpg)
 
 ### 使用 Runner 开启
 
 - `⌘` + `'` 打开 **Runner**;
 - 输入 **name**;
 
-![300px](http://qn.canisminor.cc/2017-09-24-115537.jpg)
+![300px](https://oss.canisminor.cc/2017-09-24-115537.jpg)
 
 **Input**
 
@@ -117,7 +117,7 @@ DataDisplay / Cell / 01
 
 ### 使用 Sketchpacks 安装
 
-[![150px](http://qn.canisminor.cc/2017-09-24-115227.jpg)](https://sketchpacks.com/canisminor1990/sketch-select/install)
+[![150px](https://oss.canisminor.cc/2017-09-24-115227.jpg)](https://sketchpacks.com/canisminor1990/sketch-select/install)
 
 ### 使用 Runner 安装
 
@@ -126,4 +126,4 @@ DataDisplay / Cell / 01
 - 输入 **NameOrganizer**;
 - 选择  **Name Organizer** 并 回车.
 
-[![150px](http://qn.canisminor.cc/2017-09-24-115206.jpg)](http://bit.ly/SketchRunnerWebsite)
+[![150px](https://oss.canisminor.cc/2017-09-24-115206.jpg)](http://bit.ly/SketchRunnerWebsite)

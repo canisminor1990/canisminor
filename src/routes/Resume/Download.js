@@ -39,7 +39,7 @@ export default class extends Component {
         <Download key="download" css={Inner}>
           <View.Row>
             <a
-              href="http://qn.canisminor.cc/CanisMinor%27s%20Resume.pdf"
+              href="https://oss.canisminor.cc/CanisMinor%27s%20Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >

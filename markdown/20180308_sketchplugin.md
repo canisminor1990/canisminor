@@ -1,7 +1,7 @@
 ---
 tag: tech
 desc: Sketch 插件开发 - skpm & webview
-l: http://qn.canisminor.cc/2018-08-18-skpm.png
+l: https://oss.canisminor.cc/2018-08-18-skpm.png
 ---
 
 # Skpm 插件开发
@@ -212,9 +212,9 @@ window.remoteFunc = data => {
 
 - 安装 [**sketch-dev-tools**](https://github.com/skpm/sketch-dev-tools)
 
-![full](http://qn.canisminor.cc/2018-03-08-dev-1.png)
+![full](https://oss.canisminor.cc/2018-03-08-dev-1.png)
 
-![full](http://qn.canisminor.cc/2018-03-08-dev-2.png)
+![full](https://oss.canisminor.cc/2018-03-08-dev-2.png)
 
 sketch-dev-tool 可以在 sketch 中开启类似 Chrome 开发者工具的面板，方便调试，还可以直接查阅当前 sketch 文件的图层数据结构，总之非常方便。如果想在 sketch 中调试 webview，可以在 webview 中写一个 console 方法，把需要打印的内容传给 plugin 进行 debug。
 
