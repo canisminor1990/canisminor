@@ -112,10 +112,10 @@ class App extends Component {
             x5-video-player-type="h5"
             x-webkit-airplay="allow"
             autoPlay
-            poster="http://qn-video.canisminor.cc/home.png"
+            poster="https://oss.canisminor.cc/home.png"
             onCanPlay={this.Play}
           >
-            <source src="http://qn-video.canisminor.cc/home.mp4" type="video/mp4" />
+            <source src="https://oss.canisminor.cc/home.mp4" type="video/mp4" />
           </video>
           <Explorer key="explorer">
             <div>Scroll to Explorer</div>
@@ -140,11 +140,11 @@ class App extends Component {
         {location.pathname === '/hola' ? (
           <MediaQuery key="mobile" maxWidth={Style.screen.M}>
             <ScrollToHide maxOffset={1000}>
-              <Cover style={{ backgroundImage: 'url(http://qn-video.canisminor.cc/home.png)' }} />
+              <Cover style={{ backgroundImage: 'url(https://oss.canisminor.cc/home.png)' }} />
             </ScrollToHide>
           </MediaQuery>
         ) : null}
-        <audio id="music" src="http://qn-video.canisminor.cc/music.mp3" loop />
+        <audio id="music" src="https://oss.canisminor.cc/music.mp3" loop />
         <section>
           <Content>{this.props.children}</Content>
           <Footer key="footer" data={this.footer} />
