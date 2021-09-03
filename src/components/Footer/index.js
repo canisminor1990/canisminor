@@ -51,7 +51,14 @@ export default ({ data, ...other }) => {
       <Icon size={1.5} type="logo-text" />
       <Copyright>
         Copyright © 1990-
-        {new Date().getFullYear()} CanisMinor. 京ICP备16055942号
+        {new Date().getFullYear()} CanisMinor.{' '}
+        <a
+          href="https://beian.miit.gov.cn/?spm=5176.19720258.J_9220772140.115.4c232c4aa67E8v"
+          target="_blank"
+          rel="noreferrer"
+        >
+          京ICP备16055942号
+        </a>
       </Copyright>
       <Social>{data.map(mapFooter)}</Social>
     </View>
